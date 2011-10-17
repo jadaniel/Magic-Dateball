@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#preferences-form {
+	width: 80%;
+}
+
+#preferences-form input{
+	float: right;
+}
+
+#preferences-form td{
+	width: 60%;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+	#preferences-form {
+		background: grey;
+/* 		width: 80%; */
+		padding: 15px;
+	}
+	
+	
+		
+	#wrapper{
+		margin: 0 auto;
+	}
+	
+	#content{
+
+	}
+	
+	#header{
+		width: 100%;
+		height: 85px;
+		background: yellow;
+	}
+	
+	#content{
+		background: blue;
+	}
+	
+	#footer{
+		width: 100%;
+		height: 50px;
+		background: red;
+	}
+  
+}
+
+@media screen and (max-width: 320px) {
+ 	#preferences-form {
+		background: red;
+ 	}
+ 
+}
+
+@media screen and (max-device-width: 321px) {
+	#preferences-form {
+		background: green;
+ 	}
+}
+
+
+/* Results Page */
+
+#content{
+	width: 60%;
+	float: left;
+	min-width: 
+}
+
+#sidebar {
+	float: left;
+	width: 25%;
+	
+	background: aqua;
+	height: 800px;
+}
+
+h2{
+	margin: 0;
+}
+
+.rec-group{
+	width: 100%;
+	height: 200px;
+	
+	margin: 0 auto 10px;
+	float: left;
+	
+	background: #D8D8D8;
+	border: solid 1px #C0C0C0;
+	border-radius: 10px;
+}
+	
+.rec-option{
+	float: left;
+	
+	margin: 0 2%;
+	
+	width: 20%;
+	min-width: 180px;
+	height: 180px;
+	background: #A1A1A1;
+	
+	border-radius: 10px;
+	
+	
+}
+
+.rec-score{
+	text-align: center;
+	
+	font-size: 300%;
+}
+
+.rec-image{
+
+}
+
+.rec-name{
+	text-align: center;
+	padding: 0 5px;
+	
+	font-size: 115%
+	
+
+}
+
+.clear{
+	clear: both;
+}

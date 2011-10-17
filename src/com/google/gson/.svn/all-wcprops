@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson
+END
+JsonDeserializationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonDeserializationVisitor.java
+END
+FieldNamingStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/FieldNamingStrategy.java
+END
+VersionExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/VersionExclusionStrategy.java
+END
+JsonPrimitive.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonPrimitive.java
+END
+Cache.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/Cache.java
+END
+JsonElementVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonElementVisitor.java
+END
+JsonTreeNavigator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonTreeNavigator.java
+END
+DefaultTypeAdapters.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/DefaultTypeAdapters.java
+END
+ObjectConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ObjectConstructor.java
+END
+SerializedNameAnnotationInterceptingNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/SerializedNameAnnotationInterceptingNamingPolicy.java
+END
+VersionConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/VersionConstants.java
+END
+UnsafeAllocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/UnsafeAllocator.java
+END
+FieldNamingStrategy2.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/FieldNamingStrategy2.java
+END
+ObjectTypePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ObjectTypePair.java
+END
+JsonDeserializationContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonDeserializationContext.java
+END
+NullExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/NullExclusionStrategy.java
+END
+JsonSerializationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonSerializationVisitor.java
+END
+DelegatingJsonElementVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/DelegatingJsonElementVisitor.java
+END
+AnonymousAndLocalClassExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/AnonymousAndLocalClassExclusionStrategy.java
+END
+ParameterizedTypeHandlerMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ParameterizedTypeHandlerMap.java
+END
+JsonDeserializerExceptionWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonDeserializerExceptionWrapper.java
+END
+JsonSyntaxException.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonSyntaxException.java
+END
+JavaFieldNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JavaFieldNamingPolicy.java
+END
+ReflectingFieldNavigator.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ReflectingFieldNavigator.java
+END
+MapAsArrayTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/MapAsArrayTypeAdapter.java
+END
+JsonSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonSerializer.java
+END
+ModifierBasedExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ModifierBasedExclusionStrategy.java
+END
+BaseMapTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/BaseMapTypeAdapter.java
+END
+JsonSerializationContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonSerializationContext.java
+END
+InnerClassExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/InnerClassExclusionStrategy.java
+END
+MapTypeAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/MapTypeAdapter.java
+END
+JsonSerializationContextDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonSerializationContextDefault.java
+END
+LowerCamelCaseSeparatorNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/LowerCamelCaseSeparatorNamingPolicy.java
+END
+ObjectNavigator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ObjectNavigator.java
+END
+JsonElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonElement.java
+END
+LruCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/LruCache.java
+END
+JsonObjectDeserializationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonObjectDeserializationVisitor.java
+END
+ModifyFirstLetterNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ModifyFirstLetterNamingPolicy.java
+END
+DefaultConstructorAllocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/DefaultConstructorAllocator.java
+END
+ExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ExclusionStrategy.java
+END
+LowerCaseNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/LowerCaseNamingPolicy.java
+END
+JsonArrayDeserializationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonArrayDeserializationVisitor.java
+END
+JsonObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonObject.java
+END
+UpperCaseNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/UpperCaseNamingPolicy.java
+END
+JsonNull.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonNull.java
+END
+Gson.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/Gson.java
+END
+DisjunctionExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/DisjunctionExclusionStrategy.java
+END
+JsonArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonArray.java
+END
+CamelCaseSeparatorNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/CamelCaseSeparatorNamingPolicy.java
+END
+JsonDeserializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonDeserializer.java
+END
+GsonBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/GsonBuilder.java
+END
+Streams.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/Streams.java
+END
+JsonIOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonIOException.java
+END
+CompositionFieldNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/CompositionFieldNamingPolicy.java
+END
+Escaper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/Escaper.java
+END
+ExposeAnnotationDeserializationExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ExposeAnnotationDeserializationExclusionStrategy.java
+END
+JsonParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonParseException.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/package-info.java
+END
+InstanceCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/InstanceCreator.java
+END
+FieldAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/FieldAttributes.java
+END
+FieldNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/FieldNamingPolicy.java
+END
+CircularReferenceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/CircularReferenceException.java
+END
+JsonStreamParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonStreamParser.java
+END
+MappedObjectConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/MappedObjectConstructor.java
+END
+ExposeAnnotationSerializationExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/ExposeAnnotationSerializationExclusionStrategy.java
+END
+LongSerializationPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/LongSerializationPolicy.java
+END
+FieldNamingStrategy2Adapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/FieldNamingStrategy2Adapter.java
+END
+UpperCamelCaseSeparatorNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/UpperCamelCaseSeparatorNamingPolicy.java
+END
+RecursiveFieldNamingPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/RecursiveFieldNamingPolicy.java
+END
+JsonParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonParser.java
+END
+JsonDeserializationContextDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/JsonDeserializationContextDefault.java
+END
+Primitives.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/Primitives.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/Pair.java
+END
+MemoryRefStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/MemoryRefStack.java
+END
+SyntheticFieldExclusionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/SyntheticFieldExclusionStrategy.java
+END

@@ -1,0 +1,107 @@
+package pennapps11.server.hunch;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import com.google.gson.*;
+import org.json.*;
+
+/**
+ * Class to handle JSON returns to pass to .jsp pages
+ * @author Jim
+ *	 
+ */
+public class JSONHandling {
+	static String json, IDnumber;
+	public JsonElement tree;
+
+	
+	public JSONHandling(String fromHunch){
+		json = fromHunch;
+	}
+	
+	static class Event {
+	    private String name;
+	    private String source;
+	    private Event(String name, String source) {
+	      this.name = name;
+	      this.source = source;
+	    }
+	    @Override
+	    public String toString() {
+	      return String.format("(name=%s, source=%s)", name, source);
+	    }
+	}
+	
+	/**
+	 * code from http://code.google.com/p/google-gson/source/browse/trunk/extras/src/main/java/com/google/gson/extras/examples/rawcollections/RawCollectionsExample.java
+	 * THIS SHOULD ONLY PARSE A "BATCH" REPLY FROM HUNCH 
+	 * @throws JSONException 
+	 */
+	public void myJsonParser() throws JSONException{	    
+		JSONTokener myTokener = new JSONTokener(json);
+		JSONObject jsonObj = new JSONObject(myTokener);
+		
+		JSONArray results = jsonObj.getJSONArray("results");
+		
+		// TODO Store these somewhere?
+		String resultID = "";
+		
+		for(int i = 0; i < results.length(); i++){
+			resultID = results.getJSONObject(i).getString("result_id");	
+		}
+		    
+	}
+	
+	
+	
+	/** 
+	 * @param url is the Hunch query 
+	 * @return a InputStream that will be parsed by parseJson
+	 */
+	private InputStream retrieveStream(String url) {
+		URL myZip;
+		try {
+			String encoded = URLEncoder.encode(url, "UTF-8");
+			myZip = new URL(encoded);
+			URLConnection mz = myZip.openConnection();
+			return mz.getInputStream();
+		} catch (MalformedURLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		//System.out.println(myZip);
+		catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	/**
+	 * @param source is the InputStream returned by Hunch
+	 * @return the JsonElement that we will "extract" from
+	 */
+	public JsonElement parseStream(InputStream source){
+		BufferedReader in = new BufferedReader(new InputStreamReader(source));
+		String json = "";
+		String buf = "";
+		try {
+			while ((buf = in.readLine()) != null) json += buf;
+			in.close();
+			//System.out.println(json);
+			JsonParser jparse = new JsonParser();
+			return jparse.parse(json);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+}

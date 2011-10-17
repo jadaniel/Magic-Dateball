@@ -1,0 +1,138 @@
+package pennapps11.server.hunch;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import org.json.*;
+
+
+/**
+ * Class to handle JSON returns to pass to .jsp pages
+ * @author Jim
+ *	 
+ */
+public class JSONHandling {
+	static String json, IDnumber;
+	public JsonElement tree;
+
+	
+	public JSONHandling(String fromHunch){
+		json = fromHunch;
+	}
+	
+	static class Event {
+	    private String name;
+	    private String source;
+	    private Event(String name, String source) {
+	      this.name = name;
+	      this.source = source;
+	    }
+	    @Override
+	    public String toString() {
+	      return String.format("(name=%s, source=%s)", name, source);
+	    }
+	}
+	
+	/**
+	 * code from http://code.google.com/p/google-gson/source/browse/trunk/extras/src/main/java/com/google/gson/extras/examples/rawcollections/RawCollectionsExample.java
+	 * THIS SHOULD ONLY PARSE A "BATCH" REPLY FROM HUNCH 
+	 * @throws JSONException 
+	 */
+<<<<<<< .mine
+	public void myJsonParser(){
+		Gson gson = new Gson();
+		JsonParser parser = new JsonParser();//good till here
+		
+		JsonArray array = parser.parse(this.json).getAsJsonArray();
+		Event event = gson.fromJson(array.get(0), Event.class);
+		System.out.println("Using Gson.fromJson() to get: " + event.toString());
+		
+		//JsonArray arr = obj.getAsJsonArray(); //transform the object into an array of responses
+		ArrayList<Event> myEventList = new ArrayList<Event>(); //create array/set of Events
+		for (int i = 0; i < arr.size(); i++){ //iterate through array of responses
+			Event e = gson.fromJson(arr.get(1), Event.class); //pull out id we are interested in TODO 
+			myEventList.add(e); //add to list of events
+		}
+		
+		
+		
+		/*String message = gson.fromJson(array.get(1), String.class);
+		JsonArray subArray = parser.parse(json).getAsJsonArray();
+=======
+	public void myJsonParser() throws JSONException{	    
+		JSONTokener myTokener = new JSONTokener(json);
+		JSONObject jsonObj = new JSONObject(myTokener);
+>>>>>>> .r54
+		
+<<<<<<< .mine
+		//System.out.println(message); //printed "hello"
+		int number = gson.fromJson(array.get(1), int.class);
+		//System.out.println(number); //printed "5"
+	    Event event = gson.fromJson(array.get(2), Event.class);
+	    System.out.printf("Using Gson.fromJson() to get: %s, %d, %s", message, number, event);*/
+=======
+		JSONArray results = jsonObj.getJSONArray("results");
+		
+		// TODO Store these somewhere?
+		String resultID = "";
+		
+		for(int i = 0; i < results.length(); i++){
+			resultID = results.getJSONObject(i).getString("result_id");	
+		}
+		    
+>>>>>>> .r54
+	}
+	
+	
+	
+	/** 
+	 * @param url is the Hunch query 
+	 * @return a InputStream that will be parsed by parseJson
+	 */
+	private InputStream retrieveStream(String url) {
+		URL myZip;
+		try {
+			String encoded = URLEncoder.encode(url, "UTF-8");
+			myZip = new URL(encoded);
+			URLConnection mz = myZip.openConnection();
+			return mz.getInputStream();
+		} catch (MalformedURLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		//System.out.println(myZip);
+		catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	/**
+	 * @param source is the InputStream returned by Hunch
+	 * @return the JsonElement that we will "extract" from
+	 */
+	public JsonElement parseStream(InputStream source){
+		BufferedReader in = new BufferedReader(new InputStreamReader(source));
+		String json = "";
+		String buf = "";
+		try {
+			while ((buf = in.readLine()) != null) json += buf;
+			in.close();
+			//System.out.println(json);
+			JsonParser jparse = new JsonParser();
+			return jparse.parse(json);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+}

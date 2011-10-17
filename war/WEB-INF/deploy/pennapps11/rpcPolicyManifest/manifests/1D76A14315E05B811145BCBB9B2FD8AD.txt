@@ -1,0 +1,2 @@
+serviceClass: pennapps11.client.GreetingService
+path: 64ECE2D7078490E0B5B5DBB72527F10A.gwt.rpc

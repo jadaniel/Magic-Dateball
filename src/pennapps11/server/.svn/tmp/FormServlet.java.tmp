@@ -1,0 +1,67 @@
+package pennapps11.server;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.logging.Logger;
+import javax.servlet.http.*;
+
+import pennapps11.server.hunch.HunchClient;
+import pennapps11.server.hunch.PreferenceCategory;
+
+import com.google.appengine.api.users.User;
+import com.google.appengine.api.users.UserService;
+import com.google.appengine.api.users.UserServiceFactory;
+
+public class FormServlet extends HttpServlet {
+    private static final Logger log = Logger.getLogger(FormServlet.class.getName());
+    String FB_ID, TW_ID, food, music, drinks, movies, active, zip;
+    HashMap<PreferenceCategory, String> hunchQuery;
+    
+   
+
+    public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+<<<<<<< .mine
+        UserService userService = UserServiceFactory.getUserService();
+        User user = userService.getCurrentUser();
+=======
+//        UserService userService = UserServiceFactory.getUserService();
+//        User user = userService.getCurrentUser();
+//
+//        Map myMap = req.getParameterMap();
+//        hunchQuery.putAll(myMap);
+//        
+//       
+//        
+//        //TODO send HashMap to hunch engine
+//        
+>>>>>>> .r47
+        
+<<<<<<< .mine
+        // Pull user data from .jsp form
+        Map<String, String> myMap = req.getParameterMap();
+        
+        // Pull keys from map
+        Set<String> s = myMap.keySet();
+        
+        // If user has entered a value, pull that value and place into a map w/ Preference category
+        for(PreferenceCategory cat : PreferenceCategory.values()){
+        	if (myMap.containsKey(cat.getFormField())) {
+        		hunchQuery.put(cat, myMap.get(cat.getFormField()));
+        	}
+        }
+        
+        String returnFromResults = HunchClient.getResultIDs(hunchQuery); //TODO need to separate IDs!
+        
+        
+        
+        //TODO send HashMap to hunch engine
+        
+        
+        resp.sendRedirect("/results.jsp"); //prob don't need this - send to hunch engine
+=======
+        resp.sendRedirect("/results.jsp?gwt.codesvr=127.0.0.1:9997"); //prob don't need this - send to hunch engine
+>>>>>>> .r47
+    }
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/annotations
+END
+Since.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/annotations/Since.java
+END
+Expose.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/annotations/Expose.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/annotations/package-info.java
+END
+Until.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/annotations/Until.java
+END
+SerializedName.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/pennapps11/!svn/ver/67/Pennapps11/src/com/google/gson/annotations/SerializedName.java
+END
